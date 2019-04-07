@@ -1,3 +1,6 @@
+getwd()
+setwd("C:/Users/sagak/Desktop/Coursera/EDA")
+
 library("data.table")
 
 #Reads in data from file then subsets data for specified dates
