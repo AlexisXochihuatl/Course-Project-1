@@ -1,3 +1,6 @@
+getwd()
+setwd("C:/Users/sagak/Desktop/Coursera/EDA")
+
 #Reads in data from file then subsets data for specified dates
 D.T <- data.table::fread(input = "household_power_consumption.txt",na.strings="?")
 # Prevents Scientific Notation
